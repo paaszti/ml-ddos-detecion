@@ -3,7 +3,7 @@ import csv
 import os
 
 def generate_histogram_plot():
-    file_name = '../multiclass_dataset_4k.csv'
+    file_name = '../assets/multiclass_dataset_4k.csv'
     
     benign_lengths = []
     attack_lengths = []
@@ -54,7 +54,7 @@ def generate_histogram_plot():
     plt.yticks(fontsize=12)
     
     plt.tight_layout()
-    plt.savefig('packet_length_histogram.png', dpi=300)
+    plt.savefig('../assets/plots/packet_length_histogram.png', dpi=300)
 
 if __name__ == "__main__":
     generate_histogram_plot()

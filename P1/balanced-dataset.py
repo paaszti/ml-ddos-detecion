@@ -3,7 +3,7 @@ import csv
 import os
 
 def generate_balanced_plot():
-    file_name = '../multiclass_dataset_4k.csv'
+    file_name = '../assets/multiclass_dataset_4k.csv'
     
     class_counts = {}
     
@@ -72,7 +72,7 @@ def generate_balanced_plot():
         plt.text(bar.get_x() + bar.get_width()/2, yval + offset, f"{int(yval):,}", ha='center', va='bottom', fontsize=10)
         
     plt.tight_layout()
-    plt.savefig('balanced_dataset.png', dpi=300)
+    plt.savefig('../assets/plots/balanced_dataset.png', dpi=300)
 
 if __name__ == "__main__":
     generate_balanced_plot()

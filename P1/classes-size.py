@@ -53,7 +53,7 @@ def generate_cumulative_imbalance_plot():
         plt.text(bar.get_x() + bar.get_width()/2, yval * 1.2, f"{int(yval):,}", ha='center', va='bottom', fontsize=10)
 
     plt.tight_layout()
-    plt.savefig('cumulative_imbalance.png', dpi=300)
+    plt.savefig('../assets/plots/cumulative_imbalance.png', dpi=300)
 
 if __name__ == "__main__":
     generate_cumulative_imbalance_plot()

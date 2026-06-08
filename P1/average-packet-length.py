@@ -3,7 +3,7 @@ import csv
 import os
 
 def generate_average_length_plot():
-    file_name = '../multiclass_dataset_4k.csv'
+    file_name = '../assets/multiclass_dataset_4k.csv'
     
     class_sums = {}
     class_counts = {}
@@ -92,7 +92,7 @@ def generate_average_length_plot():
         plt.text(bar.get_x() + bar.get_width()/2, yval + (max_avg * 0.02), f"{yval:.1f}", ha='center', va='bottom', fontsize=13, fontweight='bold')
         
     plt.tight_layout()
-    plt.savefig('average_packet_length.png', dpi=300)
+    plt.savefig('../assets/plots/average_packet_length.png', dpi=300)
 
 if __name__ == "__main__":
     generate_average_length_plot()
