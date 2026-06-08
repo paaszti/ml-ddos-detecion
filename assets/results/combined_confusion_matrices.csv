@@ -1,0 +1,151 @@
+experiment_type,classifier,true_label,predicted_label,count
+CLEAN_DATA,Gaussian Naive Bayes,BENIGN,BENIGN,15494
+CLEAN_DATA,Gaussian Naive Bayes,BENIGN,DrDoS_DNS,50
+CLEAN_DATA,Gaussian Naive Bayes,BENIGN,Syn,60
+CLEAN_DATA,Gaussian Naive Bayes,BENIGN,TFTP,0
+CLEAN_DATA,Gaussian Naive Bayes,BENIGN,UDP-lag,4396
+CLEAN_DATA,Gaussian Naive Bayes,DrDoS_DNS,BENIGN,35
+CLEAN_DATA,Gaussian Naive Bayes,DrDoS_DNS,DrDoS_DNS,19965
+CLEAN_DATA,Gaussian Naive Bayes,DrDoS_DNS,Syn,0
+CLEAN_DATA,Gaussian Naive Bayes,DrDoS_DNS,TFTP,0
+CLEAN_DATA,Gaussian Naive Bayes,DrDoS_DNS,UDP-lag,0
+CLEAN_DATA,Gaussian Naive Bayes,Syn,BENIGN,45
+CLEAN_DATA,Gaussian Naive Bayes,Syn,DrDoS_DNS,15
+CLEAN_DATA,Gaussian Naive Bayes,Syn,Syn,19935
+CLEAN_DATA,Gaussian Naive Bayes,Syn,TFTP,0
+CLEAN_DATA,Gaussian Naive Bayes,Syn,UDP-lag,5
+CLEAN_DATA,Gaussian Naive Bayes,TFTP,BENIGN,5
+CLEAN_DATA,Gaussian Naive Bayes,TFTP,DrDoS_DNS,9495
+CLEAN_DATA,Gaussian Naive Bayes,TFTP,Syn,215
+CLEAN_DATA,Gaussian Naive Bayes,TFTP,TFTP,10285
+CLEAN_DATA,Gaussian Naive Bayes,TFTP,UDP-lag,0
+CLEAN_DATA,Gaussian Naive Bayes,UDP-lag,BENIGN,120
+CLEAN_DATA,Gaussian Naive Bayes,UDP-lag,DrDoS_DNS,1445
+CLEAN_DATA,Gaussian Naive Bayes,UDP-lag,Syn,17347
+CLEAN_DATA,Gaussian Naive Bayes,UDP-lag,TFTP,0
+CLEAN_DATA,Gaussian Naive Bayes,UDP-lag,UDP-lag,1088
+CLEAN_DATA,K-Nearest Neighbors,BENIGN,BENIGN,19789
+CLEAN_DATA,K-Nearest Neighbors,BENIGN,DrDoS_DNS,54
+CLEAN_DATA,K-Nearest Neighbors,BENIGN,Syn,102
+CLEAN_DATA,K-Nearest Neighbors,BENIGN,TFTP,4
+CLEAN_DATA,K-Nearest Neighbors,BENIGN,UDP-lag,51
+CLEAN_DATA,K-Nearest Neighbors,DrDoS_DNS,BENIGN,3
+CLEAN_DATA,K-Nearest Neighbors,DrDoS_DNS,DrDoS_DNS,19509
+CLEAN_DATA,K-Nearest Neighbors,DrDoS_DNS,Syn,2
+CLEAN_DATA,K-Nearest Neighbors,DrDoS_DNS,TFTP,133
+CLEAN_DATA,K-Nearest Neighbors,DrDoS_DNS,UDP-lag,353
+CLEAN_DATA,K-Nearest Neighbors,Syn,BENIGN,6
+CLEAN_DATA,K-Nearest Neighbors,Syn,DrDoS_DNS,15
+CLEAN_DATA,K-Nearest Neighbors,Syn,Syn,19180
+CLEAN_DATA,K-Nearest Neighbors,Syn,TFTP,0
+CLEAN_DATA,K-Nearest Neighbors,Syn,UDP-lag,799
+CLEAN_DATA,K-Nearest Neighbors,TFTP,BENIGN,5
+CLEAN_DATA,K-Nearest Neighbors,TFTP,DrDoS_DNS,5
+CLEAN_DATA,K-Nearest Neighbors,TFTP,Syn,193
+CLEAN_DATA,K-Nearest Neighbors,TFTP,TFTP,19768
+CLEAN_DATA,K-Nearest Neighbors,TFTP,UDP-lag,29
+CLEAN_DATA,K-Nearest Neighbors,UDP-lag,BENIGN,65
+CLEAN_DATA,K-Nearest Neighbors,UDP-lag,DrDoS_DNS,93
+CLEAN_DATA,K-Nearest Neighbors,UDP-lag,Syn,13579
+CLEAN_DATA,K-Nearest Neighbors,UDP-lag,TFTP,54
+CLEAN_DATA,K-Nearest Neighbors,UDP-lag,UDP-lag,6209
+CLEAN_DATA,Decision Tree,BENIGN,BENIGN,19927
+CLEAN_DATA,Decision Tree,BENIGN,DrDoS_DNS,62
+CLEAN_DATA,Decision Tree,BENIGN,Syn,3
+CLEAN_DATA,Decision Tree,BENIGN,TFTP,2
+CLEAN_DATA,Decision Tree,BENIGN,UDP-lag,6
+CLEAN_DATA,Decision Tree,DrDoS_DNS,BENIGN,54
+CLEAN_DATA,Decision Tree,DrDoS_DNS,DrDoS_DNS,19813
+CLEAN_DATA,Decision Tree,DrDoS_DNS,Syn,7
+CLEAN_DATA,Decision Tree,DrDoS_DNS,TFTP,0
+CLEAN_DATA,Decision Tree,DrDoS_DNS,UDP-lag,126
+CLEAN_DATA,Decision Tree,Syn,BENIGN,1
+CLEAN_DATA,Decision Tree,Syn,DrDoS_DNS,8
+CLEAN_DATA,Decision Tree,Syn,Syn,19517
+CLEAN_DATA,Decision Tree,Syn,TFTP,0
+CLEAN_DATA,Decision Tree,Syn,UDP-lag,474
+CLEAN_DATA,Decision Tree,TFTP,BENIGN,5
+CLEAN_DATA,Decision Tree,TFTP,DrDoS_DNS,0
+CLEAN_DATA,Decision Tree,TFTP,Syn,198
+CLEAN_DATA,Decision Tree,TFTP,TFTP,19780
+CLEAN_DATA,Decision Tree,TFTP,UDP-lag,17
+CLEAN_DATA,Decision Tree,UDP-lag,BENIGN,11
+CLEAN_DATA,Decision Tree,UDP-lag,DrDoS_DNS,116
+CLEAN_DATA,Decision Tree,UDP-lag,Syn,13877
+CLEAN_DATA,Decision Tree,UDP-lag,TFTP,28
+CLEAN_DATA,Decision Tree,UDP-lag,UDP-lag,5968
+DATA_LEAK,Gaussian Naive Bayes,BENIGN,BENIGN,19928
+DATA_LEAK,Gaussian Naive Bayes,BENIGN,DrDoS_DNS,20
+DATA_LEAK,Gaussian Naive Bayes,BENIGN,Syn,26
+DATA_LEAK,Gaussian Naive Bayes,BENIGN,TFTP,2
+DATA_LEAK,Gaussian Naive Bayes,BENIGN,UDP-lag,24
+DATA_LEAK,Gaussian Naive Bayes,DrDoS_DNS,BENIGN,40
+DATA_LEAK,Gaussian Naive Bayes,DrDoS_DNS,DrDoS_DNS,19945
+DATA_LEAK,Gaussian Naive Bayes,DrDoS_DNS,Syn,0
+DATA_LEAK,Gaussian Naive Bayes,DrDoS_DNS,TFTP,3
+DATA_LEAK,Gaussian Naive Bayes,DrDoS_DNS,UDP-lag,12
+DATA_LEAK,Gaussian Naive Bayes,Syn,BENIGN,44
+DATA_LEAK,Gaussian Naive Bayes,Syn,DrDoS_DNS,4
+DATA_LEAK,Gaussian Naive Bayes,Syn,Syn,19936
+DATA_LEAK,Gaussian Naive Bayes,Syn,TFTP,0
+DATA_LEAK,Gaussian Naive Bayes,Syn,UDP-lag,16
+DATA_LEAK,Gaussian Naive Bayes,TFTP,BENIGN,7
+DATA_LEAK,Gaussian Naive Bayes,TFTP,DrDoS_DNS,478
+DATA_LEAK,Gaussian Naive Bayes,TFTP,Syn,215
+DATA_LEAK,Gaussian Naive Bayes,TFTP,TFTP,19298
+DATA_LEAK,Gaussian Naive Bayes,TFTP,UDP-lag,2
+DATA_LEAK,Gaussian Naive Bayes,UDP-lag,BENIGN,125
+DATA_LEAK,Gaussian Naive Bayes,UDP-lag,DrDoS_DNS,166
+DATA_LEAK,Gaussian Naive Bayes,UDP-lag,Syn,17353
+DATA_LEAK,Gaussian Naive Bayes,UDP-lag,TFTP,1173
+DATA_LEAK,Gaussian Naive Bayes,UDP-lag,UDP-lag,1183
+DATA_LEAK,K-Nearest Neighbors,BENIGN,BENIGN,19827
+DATA_LEAK,K-Nearest Neighbors,BENIGN,DrDoS_DNS,37
+DATA_LEAK,K-Nearest Neighbors,BENIGN,Syn,84
+DATA_LEAK,K-Nearest Neighbors,BENIGN,TFTP,4
+DATA_LEAK,K-Nearest Neighbors,BENIGN,UDP-lag,48
+DATA_LEAK,K-Nearest Neighbors,DrDoS_DNS,BENIGN,0
+DATA_LEAK,K-Nearest Neighbors,DrDoS_DNS,DrDoS_DNS,19810
+DATA_LEAK,K-Nearest Neighbors,DrDoS_DNS,Syn,0
+DATA_LEAK,K-Nearest Neighbors,DrDoS_DNS,TFTP,156
+DATA_LEAK,K-Nearest Neighbors,DrDoS_DNS,UDP-lag,34
+DATA_LEAK,K-Nearest Neighbors,Syn,BENIGN,8
+DATA_LEAK,K-Nearest Neighbors,Syn,DrDoS_DNS,5
+DATA_LEAK,K-Nearest Neighbors,Syn,Syn,12890
+DATA_LEAK,K-Nearest Neighbors,Syn,TFTP,1
+DATA_LEAK,K-Nearest Neighbors,Syn,UDP-lag,7096
+DATA_LEAK,K-Nearest Neighbors,TFTP,BENIGN,5
+DATA_LEAK,K-Nearest Neighbors,TFTP,DrDoS_DNS,60
+DATA_LEAK,K-Nearest Neighbors,TFTP,Syn,119
+DATA_LEAK,K-Nearest Neighbors,TFTP,TFTP,19718
+DATA_LEAK,K-Nearest Neighbors,TFTP,UDP-lag,98
+DATA_LEAK,K-Nearest Neighbors,UDP-lag,BENIGN,67
+DATA_LEAK,K-Nearest Neighbors,UDP-lag,DrDoS_DNS,87
+DATA_LEAK,K-Nearest Neighbors,UDP-lag,Syn,8936
+DATA_LEAK,K-Nearest Neighbors,UDP-lag,TFTP,89
+DATA_LEAK,K-Nearest Neighbors,UDP-lag,UDP-lag,10821
+DATA_LEAK,Decision Tree,BENIGN,BENIGN,19993
+DATA_LEAK,Decision Tree,BENIGN,DrDoS_DNS,0
+DATA_LEAK,Decision Tree,BENIGN,Syn,7
+DATA_LEAK,Decision Tree,BENIGN,TFTP,0
+DATA_LEAK,Decision Tree,BENIGN,UDP-lag,0
+DATA_LEAK,Decision Tree,DrDoS_DNS,BENIGN,2
+DATA_LEAK,Decision Tree,DrDoS_DNS,DrDoS_DNS,19956
+DATA_LEAK,Decision Tree,DrDoS_DNS,Syn,1
+DATA_LEAK,Decision Tree,DrDoS_DNS,TFTP,1
+DATA_LEAK,Decision Tree,DrDoS_DNS,UDP-lag,40
+DATA_LEAK,Decision Tree,Syn,BENIGN,2
+DATA_LEAK,Decision Tree,Syn,DrDoS_DNS,0
+DATA_LEAK,Decision Tree,Syn,Syn,19314
+DATA_LEAK,Decision Tree,Syn,TFTP,0
+DATA_LEAK,Decision Tree,Syn,UDP-lag,684
+DATA_LEAK,Decision Tree,TFTP,BENIGN,5
+DATA_LEAK,Decision Tree,TFTP,DrDoS_DNS,0
+DATA_LEAK,Decision Tree,TFTP,Syn,194
+DATA_LEAK,Decision Tree,TFTP,TFTP,19780
+DATA_LEAK,Decision Tree,TFTP,UDP-lag,21
+DATA_LEAK,Decision Tree,UDP-lag,BENIGN,6
+DATA_LEAK,Decision Tree,UDP-lag,DrDoS_DNS,53
+DATA_LEAK,Decision Tree,UDP-lag,Syn,13684
+DATA_LEAK,Decision Tree,UDP-lag,TFTP,26
+DATA_LEAK,Decision Tree,UDP-lag,UDP-lag,6231
